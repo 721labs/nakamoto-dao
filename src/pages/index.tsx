@@ -6,14 +6,15 @@ const Home: NextPage = () => {
     <div>
       <h1>NakamotoDAO</h1>
       <p>
-        Too many DAOs waste your attention and capital because they're
+        Too many DAOs waste your attention and capital because they&apos;re
         decentralized in name alone.
       </p>
       <p>
-        We index DAOs'{" "}
+        We index DAOs&apos;{" "}
         <a
           href="https://twitter.com/balajis/status/1334388563832496130?lang=en"
           target="_blank"
+          rel="noreferrer"
         >
           Nakamoto coefficient
         </a>{" "}
