@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         >
           Nakamoto coefficient
         </a>{" "}
-        in order to fight sleek marketing, diminish FOMO, and provide
+        in order to combat hero worshiping, diminish FOMO, and provide
         transparency to Web3.
       </p>
       <p>To join us, tweet @NakamotoDAO.</p>
