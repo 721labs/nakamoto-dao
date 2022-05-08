@@ -2,6 +2,10 @@
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {
+  const tweet = () => {
+    window.open(`https://twitter.com/intent/tweet?text=@NakamotoDAO`, "_blank");
+  };
+
   return (
     <div>
       <h1>NakamotoDAO</h1>
@@ -21,7 +25,8 @@ const Home: NextPage = () => {
         in order to fight sleek marketing, diminish FOMO, and provide
         transparency to Web3.
       </p>
-      <p>To join us, sign below.</p>
+      <p>To join us, tweet @NakamotoDAO.</p>
+      <button onClick={tweet}>Tweet</button>
 
       <footer>
         <a href="https://twitter.com/nakamotodao">Twitter</a>
